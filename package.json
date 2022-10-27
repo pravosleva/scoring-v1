@@ -7,6 +7,7 @@
   "main": "lib/scoring.cjs.js",
   "module": "lib/scoring.esm.js",
   "types": "lib/index.d.ts",
+  "type": "module",
   "scripts": {
     "prepack": "npm run clean && npm run prettier && npm run lint && npm run build",
     "clean": "rimraf lib/*",
