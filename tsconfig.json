@@ -1,8 +1,9 @@
 {
   "extends": "@tsconfig/recommended/tsconfig.json",
   "compilerOptions": {
+    "moduleResolution": "node",
     "module": "ESNext",
-    "declaration": true
+    "declaration": true,
   },
   "include": ["src"]
 }

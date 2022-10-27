@@ -1,11 +1,11 @@
 {
-  "name": "package-typescript-npm-starter",
-  "version": "0.0.0",
-  "description": "Template for npm TypeScript module",
-  "author": "Jakub Biesiada",
+  "name": "scoring",
+  "version": "0.0.1",
+  "description": "Scoring module",
+  "author": "Den Pol",
   "license": "MIT",
-  "main": "lib/package-typescript-npm-starter.cjs.js",
-  "module": "lib/package-typescript-npm-starter.esm.js",
+  "main": "lib/scoring.cjs.js",
+  "module": "lib/scoring.esm.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "prepack": "npm run clean && npm run prettier && npm run lint && npm run build",
@@ -23,21 +23,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/the-mes/package-typescript-npm-starter.git"
+    "url": "https://github.com/pravosleva/scoring.git"
   },
   "keywords": [
-    "npm",
-    "package",
-    "boilerplate",
-    "library",
-    "typescript",
-    "module",
-    "starter"
+    "scoring"
   ],
   "bugs": {
-    "url": "https://github.com/the-mes/package-typescript-npm-starter/issues"
+    "url": "https://github.com/pravosleva/scoring/issues"
   },
-  "homepage": "https://github.com/the-mes/package-typescript-npm-starter#readme",
+  "homepage": "https://github.com/pravosleva/scoring#readme",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.6",
     "@tsconfig/recommended": "^1.0.1",
@@ -73,5 +67,8 @@
       "npm run prettier",
       "npm run lint"
     ]
+  },
+  "dependencies": {
+    "math-interpolate": "^5.0.0"
   }
 }

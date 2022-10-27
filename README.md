@@ -1,3 +1,9 @@
+# Scoring
+
+```js
+// TODO: See tests
+```
+
 # [Package TypeScript npm starter](https://github.com/the-mes/package-typescript-npm-starter)
 
 [![NPM version](https://img.shields.io/npm/v/package-typescript-npm-starter?style=flat-square)](https://www.npmjs.com/package/package-typescript-npm-starter)
